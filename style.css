@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header, .header-links,
+.landing, .landing-left, .landing-right,
+.content,
+.info, .info-list, .info-item,
+.signup-box, .signup-text,
+.quote,
+.footer {
+    display: flex;
+}
+
+/* Header Stuff */
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-left: 24px;
+}
+
+a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: rgba(128, 0, 0, 0.687);
+    color: white;
+    padding: 8px 32px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* Landing Stuff */
+
+.landing {
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: maroon;
+    color: white;
+    padding: 24px 48px;
+}
