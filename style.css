@@ -13,7 +13,7 @@ body {
 .content,
 .info, .info-list, .info-item,
 .signup-box, .signup-text,
-.quote,
+.quote-box,
 .footer {
     display: flex;
 }
@@ -134,4 +134,68 @@ a {
     overflow: hidden;
 }
 
+.quote-box {
+    flex-flow: column wrap;
+    background-color: maroon;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    padding: 24px 240px;
+    gap: 24px;
+}
+
+.quote {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.quote-credit {
+    font-size: 16px;
+    align-self: flex-end;
+}
+
 /* Ending Stuff */
+
+.signup-box {
+    background-color: rgb(173, 33, 33);
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 64px 128px;
+    padding: 24px;
+    gap: 24px;
+    border-radius: 12px;
+}
+
+.signup-text {
+    flex-flow: column wrap;
+    width: 700px;
+}
+
+.signup-bold {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.signup-subtext {
+    font-size: 12px;
+}
+
+.signup-button {
+    background-color: maroon;
+    color: white;
+    border: 3px solid white;
+    padding: 6px 24px;
+    border-radius: 12px;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: rgba(128, 0, 0, 0.687);
+    color: white;
+    padding: 8px 32px;
+}
