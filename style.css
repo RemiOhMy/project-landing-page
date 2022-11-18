@@ -37,6 +37,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .header {
     justify-content: space-between;
     align-items: center;
@@ -82,9 +86,16 @@ a {
 
 .hero-signup {
     padding: 6px 24px;
-    border-radius: 6px;
     width: 100px;
     font-weight: 500;
+    background-color: rgba(90, 17, 17, 0.722);
+    border: 1px solid white;
+    border-radius: 12px;
+    color: white;
+}
+
+.hero-signup:hover{
+    background-color: rgb(163, 9, 9);
 }
 
 .landing-image {
@@ -186,9 +197,13 @@ a {
 .signup-button {
     background-color: maroon;
     color: white;
-    border: 3px solid white;
     padding: 6px 24px;
+    border: 1px solid white;
     border-radius: 12px;
+}
+
+.signup-button:hover {
+    background-color: rgb(192, 0, 0);
 }
 
 .footer {
