@@ -60,4 +60,36 @@ a {
     background-color: maroon;
     color: white;
     padding: 24px 48px;
+    column-gap: 24px;
 }
+
+.landing-left {
+    flex-flow: column wrap;
+    flex: 0 1 500px;
+    gap: 24px;
+    padding: 8px;
+}
+
+.hero-text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.hero-subtext {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.hero-signup {
+    padding: 6px 24px;
+    border-radius: 6px;
+    width: 100px;
+    font-weight: 500;
+}
+
+.landing-image {
+    height: 250px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
